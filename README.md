@@ -13,6 +13,8 @@ The hero card at the top shows the month and year you will be debt free, what yo
 
 Snowball pays the smallest balance first. Avalanche pays the highest APR first. Both pay every minimum each month, put the extra payment on the target debt, and roll each paid off debt's minimum into the next target.
 
+Mortgages can carry escrow. Tap Escrow on any debt and enter the taxes and insurance portion of the payment. Minimum stays the full payment from your statement, only the principal and interest part pays down the loan, and the escrow amount never rolls over to other debts once the mortgage is paid off, because taxes and insurance continue. Escrow is left out of interest and total paid.
+
 If a minimum payment does not cover a debt's first month of interest, the app says so and tells you the smallest minimum that would. If a plan cannot finish within 100 years, the app shows a clear message instead of numbers.
 
 ## How it works
@@ -27,6 +29,6 @@ A single self contained `index.html` of HTML, CSS, and vanilla JavaScript, with 
 
 ## Notes
 
-These are estimates. They assume fixed APRs, monthly compounding, no new charges, and no fees.
+These are estimates. They assume fixed APRs, monthly compounding, no new charges, no fees, and a fixed escrow amount.
 
 Part of [AppADay](https://augustineiacopelli.github.io/appaday/), one complete web app shipped every day.
